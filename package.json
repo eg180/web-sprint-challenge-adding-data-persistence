@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "connect-session-knex": "^2.0.0",
+    "helmet": "^4.4.1",
     "sqlite3": "^5.0.2"
   }
 }
