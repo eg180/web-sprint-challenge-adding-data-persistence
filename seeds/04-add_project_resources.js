@@ -5,7 +5,7 @@ exports.seed = function(knex) {
     .then(function () {
       // Inserts seed entries
       return knex("project_resources").insert([
-        {project: 1, resource: 1}
+        {project: 1, resource: 2}
       ]);
     });
 };

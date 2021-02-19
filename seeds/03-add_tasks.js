@@ -5,7 +5,7 @@ exports.seed = function(knex) {
     .then(function () {
       // Inserts seed entries
       return knex("tasks").insert([
-        {task_description: "Create optional seed files", task_notes: "Due yesterday", task_completed: true, project_id: 1}
+        {task_description: "Add data!", task_notes: "Do this or die!", task_completed: true, project_id: 1}
       ]);
     });
 };
