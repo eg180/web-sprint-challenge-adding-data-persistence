@@ -7,6 +7,7 @@ exports.up = function(knex) {
       tbl.boolean('task_completed').defaultTo(0).notNullable()
       tbl.integer('project_id')
         .unsigned()
+        .notNullable()
         .references('project_id')
         .inTable('projects')
 
